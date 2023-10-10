@@ -5,7 +5,8 @@ const body = document.getElementById("body");
 function enterH(){
 	let heading = document.createElement("h1");
     heading.textContent = 'Enter the Metaverse';
-    body.insertBefore(heading, button);
+	heading.id = 'status';
+    // body.insertBefore(heading, button);
 	document.body.prepend(heading);
     status.remove();
     // console.log(body);
