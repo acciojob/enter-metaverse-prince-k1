@@ -3,9 +3,10 @@ const status = document.getElementById("status");
 const button = document.getElementById("enterBtn");
 const body = document.getElementById("body");
 function enterH(){
-	const heading = document.createElement("h1");
-    heading.textContent = status.textContent;
+	let heading = document.createElement("h1");
+    heading.textContent = 'Enter the Metaverse';
     body.insertBefore(heading, button);
+	document.body.prepend(heading);
     status.remove();
     // console.log(body);
 
