@@ -4,7 +4,7 @@ const button = document.getElementById("enterBtn");
 const body = document.getElementById("body");
 function enterH(){
 	let heading = document.createElement("h1");
-    heading.textContent = 'Enter the Metaverse';
+    heading.textContent = 'Entered Metaverse';
 	heading.id = 'status';
     // body.insertBefore(heading, button);
 	document.body.prepend(heading);
